@@ -39,15 +39,15 @@ document.onkeyup = function(event) {
 
 // This is the body of the game and where the wins, losses, guesses left and guessed letters are written.
 		var gameBody = 
-		"<h1> The Psychic Game </h1>" +
-		"<p>&nbsp;</p>" +
-        "<hr>" +
-    	"<p>&nbsp;</p>" +
-		"<p>Guess what letter I'm thinking of:</p>" +
-		"<p>Wins: " + wins + "</p>" +
-		"<p>Losses: " + losses + "</p>" +
-		"<p>Guesses Left: " + guessesLeft + "</p>" +
-		"<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>";
-		document.querySelector("#game").innerHTML = gameBody;
+			"<h1> The Psychic Game </h1>" +
+			"<p>&nbsp;</p>" +
+			"<hr>" +
+			"<p>&nbsp;</p>" +
+			"<p>Guess what letter I'm thinking of:</p>" +
+			"<p>Wins: " + wins + "</p>" +
+			"<p>Losses: " + losses + "</p>" +
+			"<p>Guesses Left: " + guessesLeft + "</p>" +
+			"<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>";
+			document.querySelector("#game").innerHTML = gameBody;
 	}
 };
