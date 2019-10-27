@@ -1,10 +1,8 @@
-
 // Variables
 var wins = 0;
 var losses = 0;
 var guessesLeft = 9;
 var guessChoices = [];
-
 
 document.onkeyup = function(event) {
 
@@ -50,8 +48,6 @@ document.onkeyup = function(event) {
 		"<p>Losses: " + losses + "</p>" +
 		"<p>Guesses Left: " + guessesLeft + "</p>" +
 		"<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>";
-
 		document.querySelector("#game").innerHTML = gameBody;
-
 	}
 };
